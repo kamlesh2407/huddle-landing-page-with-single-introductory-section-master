@@ -1,0 +1,226 @@
+body {
+  letter-spacing: 0.2px;
+  word-spacing: 0.8px;
+  font-weight: 400;
+  /* margin: 7% 7% 0 7%; */
+  background: url(../images/bg-mobile.svg) center top / 100% auto no-repeat,
+    hsl(257, 40%, 49%);
+    color:  white ;
+}
+
+
+.wrapper-desc h2 {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  line-height: 1.5;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+.wrapper-desc >  p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  opacity: 95%;
+  text-align: center;
+  font-weight: 400;
+}
+
+
+ .wrapper-desc > a {
+    font-size: 0.75rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+/* Layout */
+
+html{
+  height: 100%;
+}
+
+
+body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    flex: 0;
+}
+
+
+.header-content,
+.section-content,
+.footer-content {
+    width: 78.67%;
+    margin: 0 auto;
+}
+
+
+/* || Header */
+.wrapper-logo {
+    margin: 3.5em 0 3.5em;
+}
+ .wrapper-logo img {
+    width: 132px;
+}
+
+
+/* || Section intro */
+
+.section-intro .wrapper-img img {
+    width: 88%;
+}
+
+.section-intro .wrapper-desc h2 {
+    margin: 2.8em 0 1em;
+}
+
+.section-intro .wrapper-desc > a {
+    display: block;
+    width: 16.67em;
+    line-height: 3.3;
+    background-color: white;
+    outline: none;
+    text-decoration: none;
+    border-radius: 45px;
+    color: hsl(257, 40%, 49%);
+    box-shadow: 0 6px 5px rgb(0 0 0 / 15%);
+    margin: 2.5em auto 2em;
+}
+
+.section-intro .wrapper-desc > a:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+    opacity: 95%;
+    transition: background-color 0.2s, color 0.2s,
+    opacity 0.2s;
+}
+/* || Footer */
+
+footer .wrapper-share {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3em;
+}
+
+footer .wrapper-share svg {
+    width: 20px;
+    height: 20px;
+    fill: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 0.7em;
+    margin-right: 1em;
+}
+
+footer .wrapper-share svg:hover {
+    cursor: pointer;
+    fill: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+    transition: all 0.2s;
+}
+
+footer .wrapper-share svg:last-child {
+    margin-right: initial;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(300, 69%, 71%);
+}
+
+
+@media screen and (min-width: 769px) {
+
+    /* || Typography */
+
+    body {
+        background: url(../images/bg-desktop.svg) center top / 100% auto no-repeat,
+        hsl(257, 40%, 49%);
+    }
+
+    .section-intro .wrapper-desc h2 {
+        text-align: left;
+        margin: 1em 0 0.75rem;
+    }
+
+    .section-intro .wrapper-desc > p {
+        text-align: left;
+    }
+
+
+    /* || Layout */
+
+        .header-content,
+        .section-content,
+        .footer-content {
+            width: 88.9%;
+        }
+
+        /* || Section intro */
+
+            .section-intro .section-content {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 2em;
+            }
+
+            .section-intro .section-content .wrapper-img {
+                flex: 0 1 54.69%;
+            }
+
+            .section-intro .section-content .wrapper-desc {
+                flex: 0 1 41%;
+            }
+
+            .section-intro .wrapper-desc > a {
+                margin: 1.25em 0 0;
+                width: 10em;
+            }
+
+            /* || Footer */
+
+                footer .wrapper-share {
+                    justify-content: flex-end;
+                }
+                footer .wrapper-share svg {
+                    width: 25px;
+                    height: 25px;
+                }
+            }
+
+
+
+            @media screen and (min-width: 77.5em) {
+
+                /* || Typography */
+
+                .section-intro .wrapper-desc h2 {
+                    font-size: 2.5rem;
+                }
+
+                .section-intro .wrapper-desc > a {
+                    font-size: 1.125rem;
+                }
+
+                /* || Section intro */
+
+                .section-intro .wrapper-desc > a {
+                    line-height: 2.75;
+                }
+            }
