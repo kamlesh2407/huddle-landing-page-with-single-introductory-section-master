@@ -78,15 +78,15 @@ footer {
 
 /* || Section intro */
 
-.section-intro .wrapper-img img {
+ .wrapper-img img {
     width: 88%;
 }
 
-.section-intro .wrapper-desc h2 {
+ .wrapper-desc h2 {
     margin: 2.8em 0 1em;
 }
 
-.section-intro .wrapper-desc > a {
+ .wrapper-desc > a {
     display: block;
     width: 16.67em;
     line-height: 3.3;
@@ -99,7 +99,7 @@ footer {
     margin: 2.5em auto 2em;
 }
 
-.section-intro .wrapper-desc > a:hover {
+ .wrapper-desc > a:hover {
     background-color: hsl(300, 69%, 71%);
     color: white;
     opacity: 95%;
@@ -108,13 +108,13 @@ footer {
 }
 /* || Footer */
 
-footer .wrapper-share {
+ .wrapper-share {
     display: flex;
     justify-content: center;
     margin-bottom: 3em;
 }
 
-footer .wrapper-share svg {
+ .wrapper-share svg {
     width: 20px;
     height: 20px;
     fill: white;
@@ -124,14 +124,14 @@ footer .wrapper-share svg {
     margin-right: 1em;
 }
 
-footer .wrapper-share svg:hover {
+ .wrapper-share svg:hover {
     cursor: pointer;
     fill: hsl(300, 69%, 71%);
     border-color: hsl(300, 69%, 71%);
     transition: all 0.2s;
 }
 
-footer .wrapper-share svg:last-child {
+ .wrapper-share svg:last-child {
     margin-right: initial;
 }
 
@@ -154,12 +154,12 @@ footer .wrapper-share svg:last-child {
         hsl(257, 40%, 49%);
     }
 
-    .section-intro .wrapper-desc h2 {
+     .wrapper-desc h2 {
         text-align: left;
         margin: 1em 0 0.75rem;
     }
 
-    .section-intro .wrapper-desc > p {
+     .wrapper-desc > p {
         text-align: left;
     }
 
@@ -174,31 +174,31 @@ footer .wrapper-share svg:last-child {
 
         /* || Section intro */
 
-            .section-intro .section-content {
+             .section-content {
                 display: flex;
                 justify-content: space-between;
                 margin-bottom: 2em;
             }
 
-            .section-intro .section-content .wrapper-img {
+             .section-content .wrapper-img {
                 flex: 0 1 54.69%;
             }
 
-            .section-intro .section-content .wrapper-desc {
+             .section-content .wrapper-desc {
                 flex: 0 1 41%;
             }
 
-            .section-intro .wrapper-desc > a {
+             .wrapper-desc > a {
                 margin: 1.25em 0 0;
                 width: 10em;
             }
 
             /* || Footer */
 
-                footer .wrapper-share {
+                 .wrapper-share {
                     justify-content: flex-end;
                 }
-                footer .wrapper-share svg {
+                 .wrapper-share svg {
                     width: 25px;
                     height: 25px;
                 }
@@ -210,17 +210,17 @@ footer .wrapper-share svg:last-child {
 
                 /* || Typography */
 
-                .section-intro .wrapper-desc h2 {
+                .wrapper-desc h2 {
                     font-size: 2.5rem;
                 }
 
-                .section-intro .wrapper-desc > a {
+              .wrapper-desc > a {
                     font-size: 1.125rem;
                 }
 
                 /* || Section intro */
 
-                .section-intro .wrapper-desc > a {
+                 .wrapper-desc > a {
                     line-height: 2.75;
                 }
             }
