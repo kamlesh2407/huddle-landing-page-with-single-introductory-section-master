@@ -9,7 +9,7 @@ body {
 }
 
 
-.wrapper-desc h2 {
+.wrapper-desc h1 {
   font-family: 'Poppins', sans-serif;
   text-align: center;
   line-height: 1.5;
@@ -82,7 +82,7 @@ footer {
     width: 88%;
 }
 
-.section-intro .wrapper-desc h2 {
+.section-intro .wrapper-desc h1 {
     margin: 2.8em 0 1em;
 }
 
@@ -154,7 +154,7 @@ footer .wrapper-share svg:last-child {
         hsl(257, 40%, 49%);
     }
 
-    .section-intro .wrapper-desc h2 {
+    .section-intro .wrapper-desc h1 {
         text-align: left;
         margin: 1em 0 0.75rem;
     }
@@ -210,7 +210,7 @@ footer .wrapper-share svg:last-child {
 
                 /* || Typography */
 
-                .section-intro .wrapper-desc h2 {
+                .section-intro .wrapper-desc h1 {
                     font-size: 2.5rem;
                 }
 
